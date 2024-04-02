@@ -1,0 +1,35 @@
+.navbar-nav >.nav-item a{
+    list-style-type: none;
+    text-decoration: none;
+    padding: 5px;
+    font-weight: bold;
+    
+}
+
+.navbar-nav .nav-item a.active{
+    color: red;
+    text-decoration: overline;
+}
+.navbar-nav{
+    display: flex;
+    justify-content: space-between;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+ .navigation{
+    position: relative;
+    z-index: 1;
+   
+}
+.img-responsive{
+    position:absolute;
+    height:580px;
+    object-fit: cover;
+    z-index: -1;
+    opacity: .6;
+    width: auto;
+}
+
+

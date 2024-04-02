@@ -1,0 +1,32 @@
+.img-rounded{
+    height: 100px;
+    width:100px;
+    
+}
+
+.heading{
+    display:grid;
+   justify-content: center;
+    align-items: center;
+     margin-top: 14%;
+    font-weight: bold;
+    font-style: italic;
+}
+#Myinput{
+    width: 500px;
+    font-style: italic;
+}
+.RegisterButton{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span{
+    color: brown;
+}
+.example-chip-list {
+    width: 100%;
+  }
+  

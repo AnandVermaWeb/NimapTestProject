@@ -1,0 +1,12 @@
+<div class="container">
+  <h2 class="text-center">Update User Profile Picture</h2>
+  <form [formGroup]="updatePicture" (ngSubmit)="onUpdatePic()" (change)="onFormChange()">
+      <div class="form-group">
+          <label for="userimage">Profile Image:</label>
+          <input type="file" accept="image/*" class="form-control" id="userimage" (change)="onSelectFile($event)">
+          <img [src]="url" alt="User Image" class="img-thumbnail" style="max-width: 200px; margin-top: 10px;">
+      </div>
+      <button type="submit" class="btn btn-primary" [disabled]="!isFormChanged">Update</button>
+
+  </form>
+</div>

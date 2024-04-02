@@ -1,0 +1,22 @@
+.userProfile img{
+    height: 150px;
+    width: 150px;
+}
+.container{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color: rgb(174, 172, 169);
+    color: whitesmoke;
+}
+.buttons{
+  display:flex;
+  justify-content: space-around;
+   
+}
+.container-fluid h3{
+padding: 30px;
+}
+h3{
+    font-weight: bold;
+}
